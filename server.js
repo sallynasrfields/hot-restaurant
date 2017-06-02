@@ -17,8 +17,8 @@ app.use(bodyParser.json({type: "application/vnd.api+json"}));
 
 
 require('./routes/htmlRoutes.js')(app);
-require('./data/tables.js')(app);
-require('./data/waitList.js')(app);
+require('./data/tables.js');
+require('./data/waitList.js');
 
 // app.get("/", function (req, res) {
 //     res.sendFile(path.join(__dirname, "home.html"));
