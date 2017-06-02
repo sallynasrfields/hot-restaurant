@@ -1,4 +1,4 @@
-[
+var waitingForATable = [
   {
     "customerName": "Ahmed",
     "customerEmail": "afhaque89@gmail.com",
@@ -29,4 +29,6 @@
     "customerEmail": "kimjaydot@gmail.com",
     "customerID": "3"
   }
-]
+];
+
+module.exports = waitingForATable;
