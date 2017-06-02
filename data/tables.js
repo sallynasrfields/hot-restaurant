@@ -1,4 +1,4 @@
-[
+var tablesSeated = [
   {
     "customerName": "Saima",
     "customerEmail": "saima@gmail.com",
@@ -23,4 +23,6 @@
     "customerEmail": "ashatry@gmail.com",
     "customerID": "7"
   }
-]
+];
+
+module.exports = tablesSeated;

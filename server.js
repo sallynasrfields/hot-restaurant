@@ -16,7 +16,13 @@ app.use(bodyParser.text());
 app.use(bodyParser.json({type: "application/vnd.api+json"}));
 
 
-require("/routes/htmlRoutes.js");
+require('./routes/htmlRoutes.js')(app);
+require('./data/tables.js');
+require('./data/waitList.js');
+
+// app.get("/", function (req, res) {
+//     res.sendFile(path.join(__dirname, "home.html"));
+// });
 
 app.listen(PORT, function () {
     console.log("App listening on PORT " + PORT);
