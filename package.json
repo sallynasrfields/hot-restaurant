@@ -1,0 +1,26 @@
+{
+  "name": "hot-restaurant",
+  "version": "1.0.0",
+  "description": "<h1>Class exercise for UT Coding Bootcamp 2017</h1>",
+  "main": "server.js",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sallynasrfields/hot-restaurant.git"
+  },
+  "author": "Artur Haley Sally Bon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sallynasrfields/hot-restaurant/issues"
+  },
+  "homepage": "https://github.com/sallynasrfields/hot-restaurant#readme"
+}
